@@ -76,7 +76,13 @@ target/
 .ipynb_checkpoints/
 
 # exclude data and local config from source control by default
-/data/
+/data/*
+!/data/figures/README.md
+!/data/input/README.md
+!/data/logs/README.md
+!/data/output/README.md
+!/data/assets
+
 catalog/config.ini
 
 # Mac OS-specific storage files
