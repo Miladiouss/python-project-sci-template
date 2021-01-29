@@ -77,11 +77,24 @@ target/
 
 # exclude data and local config from source control by default
 /data/*
+!/data/README.md
+
+!/data/figures/
+/data/figures/*
 !/data/figures/README.md
+
+!/data/input/
+/data/input/*
 !/data/input/README.md
-!/data/logs/README.md
+
+
+!/data/output/
+/data/output/*
 !/data/output/README.md
-!/data/assets
+
+!/data/logs/
+/data/logs/*
+!/data/logs/README.md
 
 catalog/config.ini
 
