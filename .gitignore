@@ -1,3 +1,38 @@
+# === Data ===
+# Ignore the content of data/ directory except for README.md files
+/data/*
+!/data/README.md
+
+!/data/figures/
+/data/figures/*
+!/data/figures/README.md
+
+!/data/input/
+/data/input/*
+!/data/input/README.md
+
+
+!/data/output/
+/data/output/*
+!/data/output/README.md
+
+!/data/logs/
+/data/logs/*
+!/data/logs/README.md
+
+# === IDE ===
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# === Others ===
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -66,36 +101,7 @@ target/
 # Pycharm
 .idea
 
-# VS Code
-.vscode/
-
-# Spyder
-.spyproject/
-
-# Jupyter NB Checkpoints
-.ipynb_checkpoints/
-
-# exclude data and local config from source control by default
-/data/*
-!/data/README.md
-
-!/data/figures/
-/data/figures/*
-!/data/figures/README.md
-
-!/data/input/
-/data/input/*
-!/data/input/README.md
-
-
-!/data/output/
-/data/output/*
-!/data/output/README.md
-
-!/data/logs/
-/data/logs/*
-!/data/logs/README.md
-
+# exclude local config from source control by default
 catalog/config.ini
 
 # Mac OS-specific storage files
